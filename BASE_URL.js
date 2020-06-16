@@ -1,4 +1,4 @@
 export const URL = {
-	dev: "https://bj-api.jiazhengye.cn",
-	prod: "https://appapi.jiazhengye.cn"
+	dev: "https://bj-api.cn",
+	prod: "https://appapi.cn"
 }

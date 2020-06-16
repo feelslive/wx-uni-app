@@ -3014,8 +3014,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.HOUR = voi
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.URL = void 0;var URL = {
-  dev: "https://bj-api.jiazhengye.cn",
-  prod: "https://appapi.jiazhengye.cn" };exports.URL = URL;
+  dev: "https://bj-api.cn",
+  prod: "https://appapi.cn" };exports.URL = URL;
 
 /***/ }),
 
