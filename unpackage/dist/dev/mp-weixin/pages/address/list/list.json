@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "服务地址",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "no-data": "/components/custom/no-data"
+  }
+}

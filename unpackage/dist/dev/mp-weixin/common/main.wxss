@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题颜色 */
+page {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+.van-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.van-multi-ellipsis--l2 {
+  -webkit-line-clamp: 2;
+}
+.van-multi-ellipsis--l2, .van-multi-ellipsis--l3 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+.van-multi-ellipsis--l3 {
+  -webkit-line-clamp: 3;
+}
+.van-clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.van-hairline, .van-hairline--bottom, .van-hairline--left, .van-hairline--right, .van-hairline--surround, .van-hairline--top, .van-hairline--top-bottom {
+  position: relative;
+}
+.van-hairline--bottom:after, .van-hairline--left:after, .van-hairline--right:after, .van-hairline--surround:after, .van-hairline--top-bottom:after, .van-hairline--top:after, .van-hairline:after {
+  position: absolute;
+  box-sizing: border-box;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  content: " ";
+  pointer-events: none;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  border: 0 solid #eee;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.van-hairline--top:after {
+  border-top-width: 1px;
+}
+.van-hairline--left:after {
+  border-left-width: 1px;
+}
+.van-hairline--right:after {
+  border-right-width: 1px;
+}
+.van-hairline--bottom:after {
+  border-bottom-width: 1px;
+}
+.van-hairline--top-bottom:after {
+  border-width: 1px 0;
+}
+.van-hairline--surround:after {
+  border-width: 1px;
+}
+.van-submit-bar {
+  box-shadow: 0rpx 8rpx 25rpx rgba(0, 0, 0, 0.2) !important;
+}
+.project-detail .van-submit-bar__bar {
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-between !important;
+          justify-content: space-between !important;
+}
+.project-detail .van-submit-bar__button {
+  height: 82rpx !important;
+  width: 400rpx !important;
+}
+.project-detail .van-button--disabled {
+  border: none !important;
+  background-color: #C0C0C0 !important;
+}
+.btn-red {
+  background-color: red;
+}
+.btn-blue {
+  background-color: blue;
+}
+.btn-green {
+  background-color: green;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题颜色 */
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1676113 */
+  src: url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.eot');
+  src: url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.svg#iconfont') format('svg');
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.xx-icon-order_all:before {
+  content: "\e63a";
+}
+
+
+.xx-icon-order_pay:before {
+  content: "\e63b";
+}
+
+
+.xx-icon-order_reservation:before {
+  content: "\e63c";
+}
+
+
+.xx-icon-store_current:before {
+  content: "\e639";
+}
+
+
+.xx-icon-poster_previous:before {
+  content: "\e637";
+}
+
+
+.xx-icon-poster_next:before {
+  content: "\e638";
+}
+
+
+.xx-icon-coupon_add:before {
+  content: "\e630";
+}
+
+
+.xx-icon-pop_cancel:before {
+  content: "\e631";
+}
+
+
+.xx-icon-applets_storename:before {
+  content: "\e632";
+}
+
+
+.xx-icon-applets_storephone:before {
+  content: "\e633";
+}
+
+
+.xx-icon-create:before {
+  content: "\e634";
+}
+
+
+.xx-icon-edit_amount:before {
+  content: "\e635";
+}
+
+
+.xx-icon-share_poster:before {
+  content: "\e636";
+}
+
+
+.xx-icon-modify:before {
+  content: "\e62c";
+}
+
+
+.xx-icon-receive_allow:before {
+  content: "\e62d";
+}
+
+
+.xx-icon-receive_stop:before {
+  content: "\e62e";
+}
+
+
+.xx-icon-delete1:before {
+  content: "\e61c";
+}
+
+
+.xx-icon-project_details:before {
+  content: "\e61b";
+}
+
+
+.xx-icon-edit:before {
+  content: "\e61a";
+}
+
+
+.xx-icon-details:before {
+  content: "\e619";
+}
+
+
+.xx-icon-insurance_manage:before {
+  content: "\e616";
+}
+
+
+.xx-icon-house_agent:before {
+  content: "\e614";
+}
+
+
+.xx-icon-account_info:before {
+  content: "\e613";
+}
+
+
+.xx-icon-system_manage:before {
+  content: "\e611";
+}
+
+
+.xx-icon-mini_pro_manage:before {
+  content: "\e610";
+}
+
+
+.xx-icon-statics:before {
+  content: "\e60f";
+}
+
+
+.xx-icon-house_clean:before {
+  content: "\e60d";
+}
+
+
+.xx-icon-duihao:before {
+  content: "\e60c";
+}
+
+
+.xx-icon-no-border-phone:before {
+  content: "\e60a";
+}
+
+
+.xx-icon-phone:before {
+  content: "\e609";
+}
+
+
+.xx-icon-edit_address:before {
+  content: "\e607";
+}
+
+
+.xx-icon-chevron:before {
+  content: "\e605";
+}
+
+
+.xx-icon-delete:before {
+  content: "\e604";
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优惠券列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "ticket-list": "/components/custom/ticket-list",
+    "no-data": "/components/custom/no-data"
+  }
+}

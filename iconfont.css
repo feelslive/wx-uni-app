@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1676113 */
+  src: url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.eot');
+  src: url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1676113_hcy4jkbdxdg.svg#iconfont') format('svg');
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xx-icon-order_all:before {
+  content: "\e63a";
+}
+
+.xx-icon-order_pay:before {
+  content: "\e63b";
+}
+
+.xx-icon-order_reservation:before {
+  content: "\e63c";
+}
+
+.xx-icon-store_current:before {
+  content: "\e639";
+}
+
+.xx-icon-poster_previous:before {
+  content: "\e637";
+}
+
+.xx-icon-poster_next:before {
+  content: "\e638";
+}
+
+.xx-icon-coupon_add:before {
+  content: "\e630";
+}
+
+.xx-icon-pop_cancel:before {
+  content: "\e631";
+}
+
+.xx-icon-applets_storename:before {
+  content: "\e632";
+}
+
+.xx-icon-applets_storephone:before {
+  content: "\e633";
+}
+
+.xx-icon-create:before {
+  content: "\e634";
+}
+
+.xx-icon-edit_amount:before {
+  content: "\e635";
+}
+
+.xx-icon-share_poster:before {
+  content: "\e636";
+}
+
+.xx-icon-modify:before {
+  content: "\e62c";
+}
+
+.xx-icon-receive_allow:before {
+  content: "\e62d";
+}
+
+.xx-icon-receive_stop:before {
+  content: "\e62e";
+}
+
+.xx-icon-delete1:before {
+  content: "\e61c";
+}
+
+.xx-icon-project_details:before {
+  content: "\e61b";
+}
+
+.xx-icon-edit:before {
+  content: "\e61a";
+}
+
+.xx-icon-details:before {
+  content: "\e619";
+}
+
+.xx-icon-insurance_manage:before {
+  content: "\e616";
+}
+
+.xx-icon-house_agent:before {
+  content: "\e614";
+}
+
+.xx-icon-account_info:before {
+  content: "\e613";
+}
+
+.xx-icon-system_manage:before {
+  content: "\e611";
+}
+
+.xx-icon-mini_pro_manage:before {
+  content: "\e610";
+}
+
+.xx-icon-statics:before {
+  content: "\e60f";
+}
+
+.xx-icon-house_clean:before {
+  content: "\e60d";
+}
+
+.xx-icon-duihao:before {
+  content: "\e60c";
+}
+
+.xx-icon-no-border-phone:before {
+  content: "\e60a";
+}
+
+.xx-icon-phone:before {
+  content: "\e609";
+}
+
+.xx-icon-edit_address:before {
+  content: "\e607";
+}
+
+.xx-icon-chevron:before {
+  content: "\e605";
+}
+
+.xx-icon-delete:before {
+  content: "\e604";
+}

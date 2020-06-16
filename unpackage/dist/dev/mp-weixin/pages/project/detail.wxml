@@ -1,0 +1,1 @@
+<view class="project-detail">项目详情<submit-bar vue-id="6fecd3c6-1" btnText="提交订单" pirce="800元" shop bind:__l="__l"></submit-bar></view>

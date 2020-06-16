@@ -1,0 +1,1 @@
+<view>项目列表<view class="content"><view class="text-area"><view class="title">{{userName}}</view><view class="title">{{avatarUrl}}</view></view></view></view>

@@ -1,0 +1,1 @@
+<view class="data-v-6f781e6a"><block wx:if="{{noData}}"><view class="noData data-v-6f781e6a"><image src="http://media.jiazhengye.cn/baseFile/miniPro/phphBR5Ba" class="data-v-6f781e6a"></image><view class="data-v-6f781e6a">{{hintText}}</view></view></block><block wx:if="{{noText}}"><view class="noText data-v-6f781e6a">没有更多了</view></block></view>

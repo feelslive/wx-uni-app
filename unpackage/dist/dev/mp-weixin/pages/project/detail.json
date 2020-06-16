@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "项目详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "submit-bar": "/components/submit-bar"
+  }
+}

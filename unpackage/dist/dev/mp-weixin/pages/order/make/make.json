@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "项目预约",
+  "usingComponents": {
+    "select-time": "/components/custom/select-time"
+  }
+}

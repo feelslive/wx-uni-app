@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择门店",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "shop-list": "/components/custom/shop-list"
+  }
+}

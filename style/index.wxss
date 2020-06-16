@@ -1,0 +1,16 @@
+.van-submit-bar {
+	box-shadow: 0rpx 8rpx 25rpx rgba(0, 0, 0, 0.2) !important;
+}
+
+.project-detail .van-submit-bar__bar {
+		justify-content: space-between !important;
+	}
+.project-detail .van-submit-bar__button {
+		height: 82upx !important;
+		width: 400upx !important;
+	}
+	
+.project-detail .van-button--disabled {
+	border: none !important;
+	background-color: #C0C0C0 !important;
+}

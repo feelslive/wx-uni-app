@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/project/list",
+			"style": {
+				"navigationBarTitleText": "项目列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/project/detail",
+			"style": {
+				"navigationBarTitleText": "项目详情",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/serve/serve",
+			"style": {
+				"navigationBarTitleText": "服务单",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/address/list/list",
+			"style": {
+				"navigationBarTitleText": "服务地址",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/address/add/add",
+			"style": {
+				"navigationBarTitleText": "服务地址",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/order/list/list",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "选择门店",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/ticket/ticket",
+			"style": {
+				"navigationBarTitleText": "优惠券列表",
+				"enablePullDownRefresh": true
+			}
+		}
+        ,{
+            "path" : "pages/order/make/make",
+            "style" : {
+				"navigationBarTitleText": "项目预约"
+				
+			}
+        }
+    ],
+	"tabBar": {
+		"custom": true,
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab_home.png",
+			"selectedIconPath": "static/tab_home2_pre.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/serve/serve",
+			"iconPath": "static/tab_order.png",
+			"selectedIconPath": "static/tab_order2_pre.png",
+			"text": "服务"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/tab_member.png",
+			"selectedIconPath": "static/tab_member2_pre.png",
+			"text": "服务"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-submit-bar": "../wxcomponents/@vant/submit-bar/index",
+			"van-icon": "../wxcomponents/@vant/icon/index",
+			"van-dialog": "../wxcomponents/@vant/dialog/index",
+			"van-tab": "../wxcomponents/@vant/tab/index",
+			"van-tabs": "../wxcomponents/@vant/tabs/index",
+			"van-button": "../wxcomponents/@vant/button/index",
+			"van-toast": "../wxcomponents/@vant/toast/index",
+			"van-field": "../wxcomponents/@vant/field/index",
+			"van-action-sheet": "../wxcomponents/@vant/action-sheet/index",
+			"van-cell": "../wxcomponents/@vant/cell/index",
+			"van-cell-group": "../wxcomponents/@vant/cell-group/index",
+			"van-popup": "../wxcomponents/@vant/popup/index",
+			"van-stepper": "../wxcomponents/@vant/stepper/index"
+		}
+	}
+}
